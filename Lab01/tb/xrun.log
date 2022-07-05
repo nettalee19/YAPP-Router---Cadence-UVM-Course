@@ -1,0 +1,21 @@
+xrun(64): 21.09-s007: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	21.09-s007: Started on Jul 04, 2022 at 13:37:39 UTC
+xrun
+	top.sv
+file: top.sv
+	`include "uvm_macros.svh"
+	                        |
+xmvlog: *E,COFILX (top.sv,13|25): cannot open include file 'uvm_macros.svh'.
+	import uvm_pkg::*;
+	             |
+xmvlog: *E,NOPBIND (top.sv,12|14): Package uvm_pkg could not be bound.
+	import yapp_pkg::*;
+	              |
+xmvlog: *E,NOPBIND (top.sv,16|15): Package yapp_pkg could not be bound.
+	module worklib.top:sv
+		errors: 3, warnings: 0
+xmvlog: *W,NOTOPL: no top-level unit found, must have recursive instances.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun(64)	21.09-s007: Exiting on Jul 04, 2022 at 13:37:40 UTC  (total: 00:00:01)

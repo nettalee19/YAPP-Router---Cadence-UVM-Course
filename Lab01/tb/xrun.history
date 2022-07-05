@@ -1,0 +1,7 @@
+s1(04Jul2022:12:50:09):  xrun -f run.f -incdir ../sv ../sv/yapp_pkg.sv 
+s2(04Jul2022:13:14:52):  xrun -f run.f 
+s3(04Jul2022:13:16:24):  xrun -f run.f 
+s4(04Jul2022:13:16:34):  xrun -f top.sv 
+s5(04Jul2022:13:16:49):  xrun top.sv 
+s6(04Jul2022:13:27:47):  irun top.sv 
+s7(04Jul2022:13:37:39):  xrun top.sv 
