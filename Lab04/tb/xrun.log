@@ -1,0 +1,1070 @@
+xrun(64): 21.09-s007: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	21.09-s007: Started on Jul 05, 2022 at 13:21:43 UTC
+irun
+	-f run.f
+		-uvmhome $UVMHOME
+		-incdir ../sv
+		+UVM_TESTNAME=base_test
+		+UVM_VERBOSITY=UVM_HIGH
+		../sv/yapp_pkg.sv
+		top.sv
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_HIGH
+
+xrun: *W,NCEXDEP: Executable (irun) is deprecated. Use (xrun) instead.
+Compiling UVM package (cdns_uvm_pkg.sv) using uvmhome location /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/
+xmvlog: *W,NOTIND: unable to access -INCDIR /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//src (No such file or directory).
+   import uvm_pkg::*;
+                |
+xmvlog: *E,NOPBIND (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp,4|16): Package uvm_pkg could not be bound.
+(protected source, `include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp line 128, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 22)
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,ILLPRI (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,ILLHIN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,NOTSTT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvmapi.svp): error within protected source code.
+   import uvm_pkg::*;
+                |
+xmvlog: *E,NOPBIND (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,25|16): Package uvm_pkg could not be bound.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 27, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+   class cdns_nowarn_catcher_c extends uvm_report_catcher;
+                                                        |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,27|56): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 27, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+     virtual function action_e catch();
+                             |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,28|29): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 28, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+     virtual function action_e catch();
+                                   |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,28|35): expecting a semicolon (';') [10.3.1(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 28, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_root r = uvm_root::get();
+             |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,45|13): Unrecognized declaration 'uvm_root' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 45, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_root r = uvm_root::get();
+             |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,45|13): Interfaces are not allowed within functions [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 45, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_root r = uvm_root::get();
+                 |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,45|17): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 45, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_root r = uvm_root::get();
+                            |
+xmvlog: *E,ILLHIN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,45|28): illegal location for a hierarchical name (uvm_root).
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 45, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_root r = uvm_root::get();
+                                |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,45|32): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 45, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_cmdline_processor clp = uvm_cmdline_processor::get_inst();
+                          |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,46|26): Unrecognized declaration 'uvm_cmdline_processor' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 46, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_cmdline_processor clp = uvm_cmdline_processor::get_inst();
+                          |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,46|26): Interfaces are not allowed within functions [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 46, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_cmdline_processor clp = uvm_cmdline_processor::get_inst();
+                                |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,46|32): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 46, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_cmdline_processor clp = uvm_cmdline_processor::get_inst();
+                                                        |
+xmvlog: *E,ILLHIN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,46|56): illegal location for a hierarchical name (uvm_cmdline_processor).
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 46, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+      uvm_cmdline_processor clp = uvm_cmdline_processor::get_inst();
+                                                                 |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv,46|65): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_uvm_ext.sv line 46, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 23)
+`include "uvm_macros.svh"
+                        |
+xmvlog: *E,COFILX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,26|24): cannot open include file 'uvm_macros.svh'.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 26, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+import uvm_pkg::*;
+             |
+xmvlog: *E,NOPBIND (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,25|13): Package uvm_pkg could not be bound.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 28, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_root r = uvm_root::get();
+                   |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,40|19): Unrecognized declaration 'uvm_root' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 40, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_root r = uvm_root::get();
+                   |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,40|19): Interfaces are not allowed within functions [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 40, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_root r = uvm_root::get();
+                     |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,40|21): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 40, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_root r = uvm_root::get();
+                       |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,40|23): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 40, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_root r = uvm_root::get();
+                                  |
+xmvlog: *E,ILLHIN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,40|34): illegal location for a hierarchical name (uvm_root).
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 40, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_root r = uvm_root::get();
+                                      |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,40|38): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 40, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_report_handler rh = r.get_report_handler();
+          |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,41|10): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 41, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_report_handler rh = r.get_report_handler();
+                             |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,41|29): Unrecognized declaration 'uvm_report_handler' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 41, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_report_handler rh = r.get_report_handler();
+                             |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,41|29): Interfaces are not allowed within functions [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 41, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_report_handler rh = r.get_report_handler();
+                                |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,41|32): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 41, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_report_handler rh = r.get_report_handler();
+                                  |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,41|34): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 41, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_report_handler rh = r.get_report_handler();
+                                     |
+xmvlog: *E,ILLHIN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,41|37): illegal location for a hierarchical name (r).
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 41, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  automatic uvm_report_handler rh = r.get_report_handler();
+                                                        |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,41|56): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 41, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+  rh.report( uvm_severity'(severity), path, tag, msg, verbosity,file, line );
+   |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv,42|3): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_assert2uvm_pkg.sv line 42, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 24)
+`include "uvm_macros.svh"
+                        |
+xmvlog: *E,COFILX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv,26|24): cannot open include file 'uvm_macros.svh'.
+   import uvm_pkg::*;
+                |
+xmvlog: *E,NOPBIND (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv,29|16): Package uvm_pkg could not be bound.
+   import cdns_uvmapi::*;
+                    |
+xmvlog: *E,NOPBIND (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv,30|20): Package cdns_uvmapi could not be bound.
+   import cdns_assert2uvm_pkg::*;
+                            |
+xmvlog: *E,NOPBIND (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv,31|28): Package cdns_assert2uvm_pkg could not be bound.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 33, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+class cdns_uvm_recorder extends uvm_recorder;
+                                           |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh,33|43): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 33, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+        super.new(name);      
+            |
+xmvlog: *E,CLSSPX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh,48|12): 'super' can only be used within a class scope that derives from a base class.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 48, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+            uvm_radix_enum radix,
+                         |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh,106|25): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 106, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+            uvm_radix_enum radix,
+                         |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh,106|25): Unrecognized declaration 'uvm_radix_enum' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 106, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+            uvm_radix_enum radix,
+                         |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh,106|25): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 106, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+            uvm_radix_enum radix,
+                               |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh,106|31): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 106, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+            integer numbits=1024);
+                  |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh,107|18): A Verilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 107, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+            integer numbits=1024);
+                           |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh,107|27): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 107, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+	const string fmt=lookup[radix];
+	    |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh,108|5): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_recording.svh line 108, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 33)
+class uvm_cdns_report_server extends uvm_report_server;
+                                                     |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,5|53): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 5, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+	local uvm_report_server delegate;
+	                      |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,9|23): Unrecognized declaration 'uvm_report_server' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 9, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		super.new();
+		    |
+xmvlog: *E,CLSSPX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,14|6): 'super' can only be used within a class scope that derives from a base class.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 14, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+			uvm_severity severity,
+			           |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,28|14): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 28, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+			uvm_report_object client
+			                |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,35|19): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 35, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+			uvm_report_object client
+			                |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,35|19): Unrecognized declaration 'uvm_report_object' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 36, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+			uvm_report_object client
+			                |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,35|19): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 36, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+			uvm_report_object client
+			                       |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,35|26): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 36, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		);
+		|
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,36|2): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 36, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		verbosity_level__=verbosity_level;
+		                |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,37|18): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 37, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+			uvm_severity severity,
+			           |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,47|14): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 47, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_severity_type t = uvm_severity_type'(severity);
+		                |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,56|18): Unrecognized declaration 'uvm_severity_type' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 56, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_severity_type t = uvm_severity_type'(severity);
+		                |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,56|18): Interfaces are not allowed within functions [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 56, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_severity_type t = uvm_severity_type'(severity);
+		                  |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,56|20): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 56, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_severity_type t = uvm_severity_type'(severity);
+		                    |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,56|22): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 56, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_severity_type t = uvm_severity_type'(severity);
+		                                        |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,56|42): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 56, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_severity_type t = uvm_severity_type'(severity);
+		                                                 |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,56|51): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 56, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_verbosity s = uvm_verbosity'(verbosity_level__);
+		            |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,57|14): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 57, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+					`uvm_warning("CDNS_EXT",$sformatf("argument %s to +UVM_HYPERLINKS is illegal (ignored, allowed is ON|OFF)",values[idx]));
+					           |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,84|16): `uvm_warning: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 84, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+					`uvm_warning("CDNS_EXT",$sformatf("argument %s to +UVM_HYPERLINKS is illegal (ignored, allowed is ON|OFF)",values[idx]));
+					            |
+xmvlog: *E,NOTSTT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,84|17): expecting a statement [9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 84, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+					`uvm_warning("CDNS_EXT",$sformatf("argument %s to +UVM_HYPERLINKS is illegal (ignored, allowed is ON|OFF)",values[idx]));
+					                       |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,84|28): expecting a right parenthesis (')') [9.4(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 84, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+					`uvm_warning("CDNS_EXT",$sformatf("argument %s to +UVM_HYPERLINKS is illegal (ignored, allowed is ON|OFF)",values[idx]));
+					                                |
+xmvlog: *W,NOSYST (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,84|37): System function '$sformatf' invoked as a task. Return value will be ignored.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 84, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+					`uvm_warning("CDNS_EXT",$sformatf("argument %s to +UVM_HYPERLINKS is illegal (ignored, allowed is ON|OFF)",values[idx]));
+					                                                                                                                       |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,84|124): expecting a semicolon (';') [10.2.2][14(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 84, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+					`uvm_warning("CDNS_EXT",$sformatf("argument %s to +UVM_HYPERLINKS is illegal (ignored, allowed is ON|OFF)",values[idx]));
+					                                                                                                                        |
+xmvlog: *E,NOTSTT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,84|125): expecting a statement [9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 84, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		return 0;           
+		     |
+xmvlog: *E,EXPENF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,97|7): expecting the keyword 'endfunction' [10.3.1(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 97, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+	virtual function void set_delegate(uvm_report_server s);
+	                                                   |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,103|52): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 103, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_report_server old=uvm_report_server::get_server();
+		                |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,109|18): Unrecognized declaration 'uvm_report_server' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 109, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_report_server old=uvm_report_server::get_server();
+		                |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,109|18): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 109, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_report_server old=uvm_report_server::get_server();
+		                     |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,109|23): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 109, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_report_server old=uvm_report_server::get_server();
+		                                        |
+xmvlog: *E,ILLHIN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,109|42): illegal location for a hierarchical name (uvm_report_server).
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 109, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		uvm_report_server old=uvm_report_server::get_server();
+		                                                   |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,109|53): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 109, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+	uvm_report_server old;
+	                |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,126|17): Unrecognized declaration 'uvm_report_server' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 126, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+	uvm_report_server old;
+	                |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,126|17): Interfaces are not allowed within functions [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 126, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+	uvm_report_server old;
+	                    |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,126|21): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 126, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+	uvm_cdns_report_server s;
+	                     |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,127|22): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 127, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		`uvm_error("CDNS_EXT","this shouldnt happen, created a cdns report server and set it but not avail during get")
+		         |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,133|11): `uvm_error: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 133, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		`uvm_error("CDNS_EXT","this shouldnt happen, created a cdns report server and set it but not avail during get")
+		          |
+xmvlog: *E,NOTSTT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,133|12): expecting a statement [9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 133, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+		`uvm_error("CDNS_EXT","this shouldnt happen, created a cdns report server and set it but not avail during get")
+		                     |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,133|23): expecting a right parenthesis (')') [9.4(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 133, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+	else 
+	   |
+xmvlog: *E,NOTSTT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh,134|4): expecting a statement [9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_messages.svh line 134, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 34)
+class cdns_hierarchy_only_printer extends uvm_table_printer;
+                                                          |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,52|58): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 52, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function void print_object (string name, uvm_object value,
+	                                                  |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,53|51): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 53, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function void print_object (string name, uvm_object value,
+	                                                  |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,53|51): Unrecognized declaration 'uvm_object' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 53, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function void print_object (string name, uvm_object value,
+	                                                  |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,53|51): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 53, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function void print_object (string name, uvm_object value,
+	                                                        |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,53|57): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 53, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		byte scope_separator=".");
+		   |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,54|5): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 54, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		byte scope_separator=".");
+		                    |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,54|22): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 54, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_component no;
+		            |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,55|14): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 55, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_bitstream_t value,
+		              |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,67|16): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 67, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_bitstream_t value,
+		              |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,67|16): Unrecognized declaration 'uvm_bitstream_t' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 67, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_bitstream_t value,
+		              |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,67|16): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 67, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_bitstream_t value,
+		                    |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,67|22): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 67, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		int         size,
+		  |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,68|4): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 68, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_radix_enum  radix=UVM_NORADIX,
+		                    |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,69|22): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 69, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_radix_enum  radix=UVM_NORADIX,
+		                     |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,69|23): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 69, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		byte        scope_separator=".",
+		   |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,70|5): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 70, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		byte        scope_separator=".",
+		                           |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,70|29): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 70, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		string      type_name="");
+		     |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,71|7): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 71, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		string      type_name="");
+		                     |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,71|23): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 71, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		return;
+		     |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,72|7): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 72, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		super.new();
+		    |
+xmvlog: *E,CLSSPX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,81|6): 'super' can only be used within a class scope that derives from a base class.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 81, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+class cdns_list_printer extends uvm_printer;
+                                          |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,95|42): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 95, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function void print_object (string name, uvm_object value,
+	                                                  |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,97|51): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 97, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function void print_object (string name, uvm_object value,
+	                                                  |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,97|51): Unrecognized declaration 'uvm_object' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 97, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function void print_object (string name, uvm_object value,
+	                                                  |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,97|51): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 97, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function void print_object (string name, uvm_object value,
+	                                                        |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,97|57): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 97, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		byte scope_separator=".");
+		   |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,98|5): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 98, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		byte scope_separator=".");
+		                    |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,98|22): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 98, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_component no;
+		            |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,99|14): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 99, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_bitstream_t value,
+		              |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,111|16): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 111, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_bitstream_t value,
+		              |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,111|16): Unrecognized declaration 'uvm_bitstream_t' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 111, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_bitstream_t value,
+		              |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,111|16): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 111, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_bitstream_t value,
+		                    |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,111|22): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 111, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		int         size,
+		  |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,112|4): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 112, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_radix_enum  radix=UVM_NORADIX,
+		                    |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,113|22): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 113, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_radix_enum  radix=UVM_NORADIX,
+		                     |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,113|23): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 113, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		byte        scope_separator=".",
+		   |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,114|5): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 114, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		byte        scope_separator=".",
+		                           |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,114|29): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 114, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		string      type_name="");
+		     |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,115|7): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 115, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		string      type_name="");
+		                     |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,115|23): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 115, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		return;
+		     |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,116|7): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 116, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		super.new();
+		    |
+xmvlog: *E,CLSSPX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,119|6): 'super' can only be used within a class scope that derives from a base class.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 119, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+uvm_table_printer cdns_tcl_all_printer;
+                |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,128|16): Unrecognized declaration 'uvm_table_printer' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 128, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+uvm_table_printer cdns_tcl_all_printer;
+                |
+xmvlog: *E,NPITEM (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,128|16): Not a valid package item: 'interface_declaration' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 128, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	            |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,142|13): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 142, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	                  |
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,142|19): The single-bound form of a range is only allowed for array (i.e., unpacked) dimensions.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 142, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	                   |
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,142|20): expecting an identifier [3.2][3.8][3.9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 142, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_printer p;
+	          |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,143|11): Unrecognized declaration 'uvm_printer' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 143, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_printer p;
+	          |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,143|11): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 143, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_printer p;
+	            |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,143|13): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 143, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component c;
+	            |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,144|13): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 144, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,145|8): Unrecognized declaration 'uvm_root' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 145, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,145|8): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 145, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	           |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,145|12): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 145, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component c, cq[$];
+	            |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,185|13): Unrecognized declaration 'uvm_component' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 185, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component c, cq[$];
+	            |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,185|13): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 185, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component c, cq[$];
+	              |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,185|15): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 185, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_printer p;
+	          |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,186|11): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 186, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,188|8): Unrecognized declaration 'uvm_root' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 188, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,188|8): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 188, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	           |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,188|12): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 188, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	            |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,234|13): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 234, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	                  |
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,234|19): The single-bound form of a range is only allowed for array (i.e., unpacked) dimensions.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 234, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	                   |
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,234|20): expecting an identifier [3.2][3.8][3.9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 234, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,235|8): Unrecognized declaration 'uvm_root' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 235, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,235|8): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 235, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	           |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,235|12): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 235, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	integer fp;
+	      |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,236|7): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 236, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	string field, uvm_bitstream_t value,
+	                            |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,268|29): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 268, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	string field, uvm_bitstream_t value,
+	                            |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,268|29): Unrecognized declaration 'uvm_bitstream_t' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 268, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	string field, uvm_bitstream_t value,
+	                            |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,268|29): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 268, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	string field, uvm_bitstream_t value,
+	                                  |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,268|35): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 268, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	bit do_config=0);
+	  |
+xmvlog: *E,FNDKWD (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,269|3): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 269, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	bit do_config=0);
+	             |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,269|14): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 269, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,271|8): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 271, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	            |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,272|13): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 272, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	                  |
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,272|19): The single-bound form of a range is only allowed for array (i.e., unpacked) dimensions.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 272, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	                   |
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,272|20): expecting an identifier [3.2][3.8][3.9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 272, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,307|8): Unrecognized declaration 'uvm_root' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 307, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,307|8): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 307, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	           |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,307|12): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 307, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	            |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,308|13): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 308, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+function automatic bit cdns_get_reporter_matches (string name, ref uvm_report_object rq[$]);
+                                                                                   |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,345|83): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 345, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOIPRT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,347|8): Unrecognized declaration 'uvm_root' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 347, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	       |
+xmvlog: *E,NOTINF (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,347|8): Interfaces are not allowed within functions [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 347, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_root top;
+	           |
+xmvlog: *E,ILLPDL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,347|12): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 347, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_component cq[$];
+	            |
+xmvlog: *E,EXPRPA (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,348|13): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 348, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+class cdns_id_catcher extends uvm_report_catcher;
+                                               |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,367|47): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 367, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	uvm_pool#(uvm_report_object, uvm_pool#(string, int)) tag_map = new("tag_map");
+	       |
+xmvlog: *E,EXPENC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,369|8): Expecting the keyword 'endclass'.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 369, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function new(string name="");
+	           |
+xmvlog: *E,NEWOIC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,370|12): The class constructor method 'new' is only allowed within a class declaration.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 370, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		super.new(name);
+		    |
+xmvlog: *E,CLSSPX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,371|6): 'super' can only be used within a class scope that derives from a base class.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 371, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	virtual function void set_stop_on_error(bit v);
+	               |
+xmvlog: *E,BADQAL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,373|16): Lifetime or qualifier(s) 'virtual' not allowed before function declaration.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 373, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function action_e catch(); 
+	                |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,376|17): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 376, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	function action_e catch(); 
+	                      |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,376|23): expecting a semicolon (';') [10.3.1(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 376, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_pool#(string, int) id_map;
+		       |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,377|9): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 377, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_pool#(string, int) id_map;
+		               |
+xmvlog: *E,ILLPRI (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,377|17): illegal expression primary [4.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 377, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		uvm_pool#(string, int) id_map;
+		                    |
+xmvlog: *E,ILLPRI (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,377|22): illegal expression primary [4.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 377, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		int v;
+		  |
+xmvlog: *E,BADDCL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,378|4): identify declaration while expecting a statement.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 378, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+	static function cdns_id_catcher get();
+	              |
+xmvlog: *E,BADQAL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,391|15): Lifetime or qualifier(s) 'static' not allowed before function declaration.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 391, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+endclass
+       |
+xmvlog: *E,EXPENP (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,399|7): Expecting the keyword 'endpackage' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 399, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		`uvm_warning("CDNS_EXT", $sformatf("no components matching %s", comp))
+		           |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,838|13): `uvm_warning: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 838, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+			 `uvm_warning("CDNS_EXT", $sformatf("Bad action argument \"%s\" given", val))
+			            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,846|15): `uvm_warning: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 846, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+		  `uvm_warning("CDNS_EXT", $sformatf("Bad severity argument \"%s\" given", val))
+		             |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,864|15): `uvm_warning: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 864, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+              	  `uvm_info("CDNS_EXT","STOP_ON_ERROR",UVM_LOW);
+              	          |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,885|25): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 885, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+      if(!$cast(cg,g))`uvm_error("RPTSRV","The Report Server is not CDNS Report Server");
+                               |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh,931|31): `uvm_error: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/cdns_tcl.svh line 931, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 35)
+package cdns_uvm_pkg;
+                   |
+xmvlog: *W,TSNSPK (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv,28|19): `timescale is not specified for the package.  The default timescale of 1ns/1ns will be assumed for this package.
+   import uvm_pkg::*;
+                |
+xmvlog: *E,NOPBIND (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv,40|16): Package uvm_pkg could not be bound.
+   import uvm_nowarn_from_cmdline::*;
+                                |
+xmvlog: *E,NOPBIND (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv,41|32): Package uvm_nowarn_from_cmdline could not be bound.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 24, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+class uvm_reg_generate_access_file_seq extends uvm_reg_mem_hdl_paths_seq;
+                                                                       |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,24|71): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 24, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("generating IUS access file \"%s\"", file_name),UVM_NONE)
+            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,33|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 33, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("generating IUS access file \"%s\"", file_name),UVM_NONE)
+             |
+xmvlog: *E,NOTSTT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,33|13): expecting a statement [9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 33, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("generating IUS access file \"%s\"", file_name),UVM_NONE)
+                               |
+xmvlog: *W,NOSYST (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,33|31): System function '$sformatf' invoked as a task. Return value will be ignored.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 33, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("generating IUS access file \"%s\"", file_name),UVM_NONE)
+                                                                                |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,33|80): expecting a semicolon (';') [10.2.2][14(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 33, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("generating IUS access file \"%s\"", file_name),UVM_NONE)
+                                                                                         |
+xmvlog: *E,MISEXX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,33|89): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 33, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("pass the generated file to irun via \"-afile %s\"", file_name),UVM_NONE)
+            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,42|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 42, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("pass the generated file to irun via \"-afile %s\"", file_name),UVM_NONE)
+             |
+xmvlog: *E,NOTSTT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,42|13): expecting a statement [9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 42, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("pass the generated file to irun via \"-afile %s\"", file_name),UVM_NONE)
+                               |
+xmvlog: *W,NOSYST (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,42|31): System function '$sformatf' invoked as a task. Return value will be ignored.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 42, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("pass the generated file to irun via \"-afile %s\"", file_name),UVM_NONE)
+                                                                                                |
+xmvlog: *E,EXPSMC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,42|96): expecting a semicolon (';') [10.2.2][14(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 42, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    `uvm_info("RegMem",$sformatf("pass the generated file to irun via \"-afile %s\"", file_name),UVM_NONE)
+                                                                                                         |
+xmvlog: *E,MISEXX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,42|105): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 42, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+      `uvm_fatal("RegMem",{"access file generation failed on path ",a})
+               |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,63|15): `uvm_fatal: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 63, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+      `uvm_fatal("RegMem",{"access file generation failed on path ",a})
+                |
+xmvlog: *E,NOTSTT (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,63|16): expecting a statement [9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 63, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+      `uvm_fatal("RegMem",{"access file generation failed on path ",a})
+                                                                  |
+xmvlog: *E,NOTLVL (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,63|66): illegal lvalue syntax [9.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 63, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+      `uvm_fatal("RegMem",{"access file generation failed on path ",a})
+                                                                      |
+xmvlog: *E,MISEXX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,63|70): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 63, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+  protected virtual function void check_reg(uvm_reg r,
+                                                  |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,68|50): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 68, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    uvm_hdl_path_concat paths[$];
+                      |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,70|22): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 70, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    uvm_hdl_path_concat paths[$];
+                               |
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,70|31): The single-bound form of a range is only allowed for array (i.e., unpacked) dimensions.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 70, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    uvm_hdl_path_concat paths[$];
+                                |
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,70|32): expecting an identifier [3.2][3.8][3.9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 70, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+      uvm_hdl_path_concat path=paths[p];
+                        |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,79|24): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 79, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+  protected virtual function void check_mem(uvm_mem m,
+                                                  |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,88|50): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 88, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    uvm_hdl_path_concat paths[$];
+                      |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,90|22): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 90, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    uvm_hdl_path_concat paths[$];
+                               |
+xmvlog: *E,SVPKSN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,90|31): The single-bound form of a range is only allowed for array (i.e., unpacked) dimensions.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 90, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    uvm_hdl_path_concat paths[$];
+                                |
+xmvlog: *E,EXPIDN (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,90|32): expecting an identifier [3.2][3.8][3.9(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 90, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+      uvm_hdl_path_concat path=paths[p];
+                        |
+xmvlog: *E,SVNOTY (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,99|24): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 99, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+  `uvm_object_utils(uvm_reg_generate_access_file_seq)
+                  |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,108|18): `uvm_object_utils: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 108, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+  `uvm_object_utils(uvm_reg_generate_access_file_seq)
+                   |
+xmvlog: *E,EXPENC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,108|19): Expecting the keyword 'endclass'.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 108, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+  function new(string name="uvm_reg_generate_access_file_seq");
+             |
+xmvlog: *E,NEWOIC (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,110|13): The class constructor method 'new' is only allowed within a class declaration.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 110, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+    super.new(name);
+        |
+xmvlog: *E,CLSSPX (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,111|8): 'super' can only be used within a class scope that derives from a base class.
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 111, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+endclass: uvm_reg_generate_access_file_seq
+       |
+xmvlog: *E,EXPENP (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv,113|7): Expecting the keyword 'endpackage' [SystemVerilog].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_generate_access_file_seq.sv line 113, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 44)
+      `uvm_info("REG_PREDICT", "Shuttig off register explicit predictor", UVM_LOW)
+              |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv,51|14): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv line 51, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 46)
+          `uvm_error("REG_PREDICT_COLLISION",{"Collision detected for register '",
+                   |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv,93|19): `uvm_error: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv line 93, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 46)
+                `uvm_info("REG_PREDICT", 
+                        |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv,187|24): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv line 187, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 46)
+         `uvm_error("REG_PREDICT_INTERNAL",{"Unexpected failed address lookup for register '",
+                  |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv,198|18): `uvm_error: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv line 198, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 46)
+       `uvm_info("REG_PREDICT_NOT_FOR_ME",
+               |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv,202|15): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv line 202, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 46)
+  `uvm_component_param_utils(uvm_reg_predictor_ext#(BUSTYPE))
+                           |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv,207|27): `uvm_component_param_utils: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_predictor_ext.sv line 207, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 46)
+         `uvm_fatal("BUILT-IN-SEQ", $sformatf(
+                  |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv,146|18): `uvm_fatal: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv line 146, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 48)
+    `uvm_info ("BUILT-IN-SEQ", "Printing sequence banner", UVM_LOW)
+            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv,241|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv line 241, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 48)
+    `uvm_info("BUILT-IN-SEQ", $sformatf("  Finishing %s sequence", get_name()), UVM_LOW) 
+            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv,400|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv line 400, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 48)
+      `uvm_info(get_type_name(), $sformatf("%s pre_body() raising %s objection", 
+              |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv,408|14): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv line 408, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 48)
+      `uvm_info(get_type_name(),
+              |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv,418|14): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_base_seq.sv line 418, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 48)
+        `uvm_info("BUILT-IN-SEQ", $sformatf("  Read %s Register. Value = %0x", regs[i].get_name(), data), UVM_HIGH)
+                |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_read_all_regs_seq.sv,54|16): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_read_all_regs_seq.sv line 54, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 50)
+  `uvm_object_utils(uvm_reg_built_in_read_all_regs_seq)
+                  |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_read_all_regs_seq.sv,59|18): `uvm_object_utils: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_read_all_regs_seq.sv line 59, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 50)
+        `uvm_info("BUILT-IN-SEQ", $sformatf("  Wrote %s Register. Value = %0x", 
+                |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_write_all_regs_seq.sv,75|16): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_write_all_regs_seq.sv line 75, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 52)
+  `uvm_object_utils(uvm_reg_built_in_write_all_regs_seq)
+                  |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_write_all_regs_seq.sv,81|18): `uvm_object_utils: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_write_all_regs_seq.sv line 81, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 52)
+        `uvm_info("BUILT-IN-SEQ", $sformatf("  Wrote %s Register. Value = %0x", regs[i].get_name(), regs[i].get()), UVM_HIGH)
+                |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_wr_follow_rd_seq.sv,92|16): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_wr_follow_rd_seq.sv line 92, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 54)
+        `uvm_info("BUILT-IN-SEQ", $sformatf("  Read %s Register. Value = %0x", regs[i].get_name(), regs[i].get()), UVM_HIGH)
+                |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_wr_follow_rd_seq.sv,95|16): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_wr_follow_rd_seq.sv line 95, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 54)
+  `uvm_object_utils(uvm_reg_built_in_wr_follow_rd_seq)
+                  |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_wr_follow_rd_seq.sv,100|18): `uvm_object_utils: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_wr_follow_rd_seq.sv line 100, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 54)
+          `uvm_fatal(get_type_name, "randomization of regs[i] failed")
+                   |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_aliasing_seq.sv,59|19): `uvm_fatal: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_aliasing_seq.sv line 59, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 56)
+        `uvm_info("BUILT-IN-SEQ", $sformatf(
+                |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_aliasing_seq.sv,62|16): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_aliasing_seq.sv line 62, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 56)
+              `uvm_info("BUILT-IN-SEQ", $sformatf(
+                      |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_aliasing_seq.sv,70|22): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_aliasing_seq.sv line 70, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 56)
+  `uvm_object_utils(uvm_reg_built_in_aliasing_seq)
+                  |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_aliasing_seq.sv,79|18): `uvm_object_utils: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_aliasing_seq.sv line 79, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 56)
+      `uvm_info(get_type_name(), $sformatf("%s pre_body() raising %s objection", 
+              |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,51|14): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 51, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+    `uvm_info("BUILT-IN-SEQ", "Starting all built in sequences", UVM_FULL)
+            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,58|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 58, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+    `uvm_do(rd_all)
+          |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,59|10): `uvm_do: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 59, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+    `uvm_info("BUILT-IN-SEQ", "Completed read-all registers sequence", UVM_FULL)
+            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,60|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 60, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+    `uvm_do(wr_all)
+          |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,61|10): `uvm_do: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 61, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+    `uvm_info("BUILT-IN-SEQ", "Completed write-all registers sequence", UVM_FULL)
+            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,62|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 62, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+    `uvm_do(wr_rd)
+          |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,63|10): `uvm_do: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 63, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+    `uvm_info("BUILT-IN-SEQ", "Completed write-read registers sequence", UVM_FULL)
+            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,64|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 64, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+    `uvm_do(alias_seq)
+          |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,65|10): `uvm_do: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 65, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+    `uvm_info("BUILT-IN-SEQ", "Completed aliasing-sequence", UVM_FULL)
+            |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,66|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 66, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+      `uvm_info(get_type_name(),
+              |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,76|14): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 76, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+  `uvm_object_utils(uvm_reg_built_in_all_seq)
+                  |
+xmvlog: *E,NOTDIR (/apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv,83|18): `uvm_object_utils: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+(`include file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM/CDNS-1.1d/additions/sv/./reg/uvm_reg_built_in_all_seq.sv line 83, file: /apps/cadence/XCELIUM/21.09.007/tools/methodology/UVM//CDNS-1.1d/additions/sv/cdns_uvm_pkg.sv line 58)
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+xrun: *E,UVMCXF: The process to compile the uvm extensions has failed. Add -uvmnocdnsextra to disable the addon package or point to the right version using -uvmexthome.
+TOOL:	xrun(64)	21.09-s007: Exiting on Jul 05, 2022 at 13:21:45 UTC  (total: 00:00:02)
